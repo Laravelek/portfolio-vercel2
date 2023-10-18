@@ -1,0 +1,228 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #423E3B;
+  overflow-x: hidden;
+}
+
+/* Default styles for full-width layout */
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 170px;
+  border-bottom: 1px solid #A2A392;
+  height: 10vh;
+  position: fixed; /* Change position to fixed */
+  top: 0;
+  left: 0; /* Add this line to align it to the left */
+  right: 0; /* Add this line to align it to the right */
+  z-index: 100; /* Add a z-index to control stacking order if needed */
+}
+
+/* Logo */
+.logo {
+  /* Adjust the width and height as needed */
+  width: 70px;
+  opacity: 1; /* Ensure full opacity for the logo */
+}
+
+/* Navigation Links */
+ul {
+  list-style-type: none;
+  margin: 0;
+
+  display: flex;
+}
+
+li {
+  margin: 0 10px; /* Add space between list items (hyperlinks) */
+}
+
+li a {
+  color: #423E3B;
+  text-decoration: none;
+
+
+}
+
+
+#Intro{
+  display: flex;
+  height: 100vh;
+}
+
+.Ltxt{
+  color: #A2A392;
+}
+
+#Centertxt{
+ width:70%;
+
+}
+
+.Introtxt{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50vw;
+font-size: 24px;
+flex-direction: column;
+}
+.Introimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.Introimg1{
+  width: 400px;
+}
+
+.ldiv, .ddiv{
+  height: 100vh;
+  width: 100vw;
+}
+
+#Vaardighedendiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Vaardighedendiv {
+  background-color: white;
+  height: 650px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.Projecttxt{
+  font-size: 20px;
+  width: 100vw;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 70px;
+}
+
+#ddivshort{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100VH;
+}
+
+.divprjct{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.Projectdivd {
+  height: 35vh;
+  width: 50vw;
+  border-top-right-radius: 52px;
+  border-bottom-right-radius: 52px;
+  background-color: white;
+  display: flex;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  
+}
+
+.Porjectfoto{
+  height: 35vh;
+}
+
+
+.divprjct1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  justify-self: center;
+  
+}
+
+.Projectdivd1{
+  height:  35vh;
+  width: 50vw;
+  border-top-left-radius: 52px;
+  border-bottom-left-radius: 52px;
+  background-color: white;
+  
+  
+  }
+  .Porjectfoto1{
+    height: 35vh;
+    background-color: white;
+  }
+
+
+
+.ldiv{
+  background-color: #F2F2F2;
+}
+
+.ddiv{
+  background-color: #D5D0CD;
+
+}
+
+#ddivshort{
+  height: 70vh;
+}
+
+
+.socials{
+  height: 50px;
+  width: 50px;
+  
+}
+
+.USP{
+height: 10vh;
+background-color: #D5D0CD;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+
+/* WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  margin-right: -10px; /* Move the scrollbar 10px to the left (adjust the value as needed) */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+  border-radius: 10px; /* Border radius for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A2A392; /* Color of the thumb (scrollable area) */
+  border-radius: 10px; /* Border radius for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A2A392; /* Color of the thumb on hover */
+}
+
